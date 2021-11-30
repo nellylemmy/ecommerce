@@ -1,0 +1,158 @@
+.btn-success{width:100%;border-radius:0;}
+
+.title-price{margin-top:30px;margin-bottom:0;color:black}
+
+.btn-minus{
+    cursor:pointer;
+    font-size:7px;
+    display:flex;
+    align-items:center;
+    padding:5px 10px;
+    border:1px solid gray;
+    border-radius:2px;
+    border-right:0;
+}
+.btn-plus{
+    cursor:pointer;
+    font-size:7px;
+    display:flex;
+    align-items:center;
+    padding:5px 10px;
+    border:1px solid gray;
+    border-radius:2px;
+    border-left:0;
+}
+
+.btn-minus, .btn-plus{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.main-section{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+}
+
+#size{
+    padding: 7px;
+}
+
+.rating{
+    display: flex;
+}
+
+.quantity{
+    width: 60px;
+}
+
+.number-input{
+    display: flex;
+}
+.form-check{
+    display: flex;
+}
+
+.pro-actions-btn{
+    display: flex;
+}
+
+.product-img{
+ height: auto;
+ width: 250px;
+ max-width: 260px;
+ margin: 1rem auto;
+}
+
+.product-img img{
+    width: 100%;
+    height: calc(100% - 1rem);
+}
+
+.product-gallery{
+    max-height: 350px;
+    max-width: 400px;
+}
+
+.pro-actions{
+    display: flex;
+    justify-content: space-between;
+}
+.pro-actions-item{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+.pro-actions-label{
+    margin-bottom: .6rem;
+    font-size: 1.17em;
+    font-weight: 500;
+}
+.big-icon{font-size: 1.5rem; text-align: center;}
+.btns{
+    display: flex;
+}
+.btns .btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pro-image{
+    width: 70px;
+}
+
+.pro-image img{
+    width: 70px;
+}
+.dropdown-small{
+    width: calc(0% + 30rem) !important;
+    left: calc(100% - 400%) !important;
+    z-index: 100;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 520px) {
+    .container {margin-top:0px !important;}
+    .container > .row{padding:0 !important;}
+    .container > .row > .col-xs-12.col-sm-5{
+        padding-right:0 ;    
+    }
+    .container > .row > .col-xs-12.col-sm-9 > div > p{
+        padding-left:0 !important;
+        padding-right:0 !important;
+    }
+    .container > .row > .col-xs-12.col-sm-9 > div > ul{
+        padding-left:10px !important;
+        
+    }            
+    .section{width:104%;}
+    .menu-items{padding-left:0;}
+
+    .main-section{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .product-img{
+        height: auto;
+        width: 230px;
+        max-width: 260px;
+        margin: 1rem auto;
+       }
+       
+       .product-img img{
+           width: 100%;
+           height: calc(70% - 1rem);
+       }
+       
+       .product-gallery{
+           max-height: 250px;
+           max-width: 300px;
+       }
+}
